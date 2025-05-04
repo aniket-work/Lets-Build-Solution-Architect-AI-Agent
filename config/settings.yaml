@@ -1,0 +1,20 @@
+application:
+  name: "Enterprise Architect AI Agent"
+  version: "2.4.1"
+  description: "Enterprise Architecture & System Design Expert"
+
+models:
+  primary: "llama-3.3-70b-versatile"
+  fallback: "llama-3.3-8b-versatile"
+
+api:
+  timeout: 30
+  retry_attempts: 3
+
+ui:
+  theme: "professional"
+  diagram:
+    default_height: 400
+    show_controls: true
+  debug:
+    show_raw_response: false

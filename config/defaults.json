@@ -1,0 +1,23 @@
+{
+  "agents": {
+    "diagram_specialist": {
+      "name": "Diagram Specialist Agent",
+      "role": "diagram_generation",
+      "model": "llama-3.3-70b-versatile",
+      "tools": ["web_search"]
+    }
+  },
+  "diagram_settings": {
+    "height_range": {
+      "min": 200,
+      "max": 800,
+      "step": 50,
+      "default": 400
+    }
+  },
+  "badges": [
+    "Cloud Architecture",
+    "Data Engineering",
+    "System Integration"
+  ]
+}
